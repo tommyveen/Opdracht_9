@@ -1,0 +1,186 @@
+
+
+body { 
+    color: #252A3C;
+    background-color: whitesmoke;
+}
+
+body {
+    font-family: 'Martel', serif;
+    background-color: white;
+    color: black;
+    line-height: 180%;
+    font-size: small;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #252A3C;
+}
+
+a:hover {
+    color: none;
+}
+
+a:active {
+    color: none;
+}
+
+.aboutIMG {
+    border-radius: 8px;
+    float: right;
+    margin: 20px 60px 20px 60px;
+}
+
+.meText {  
+    width: 90%;
+    margin-left: 40px;
+    margin-bottom: 48px;
+}
+
+
+.nameAbout {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 40px;
+    font-style: none;
+    text-decoration: none;
+}
+
+.products {
+    margin-top: 32px;
+    margin-left: 40px;
+    font-style: none;
+    text-decoration: underline;
+}
+
+.productsList {
+    margin-bottom: 509px;
+    list-style: inside square;
+}
+
+.footer {
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8D99AE;
+    color: #f4f4f4;
+    text-align: left;
+    padding-left: 60px;
+}
+
+.form {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+
+}
+
+.my-form{
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.form-group2 {
+    display: inline;
+}
+
+.my-form input[type="text"], .my-form textarea {
+    padding: 6px;
+    width: 50%;
+    font-family: 'Martel', serif;
+    background-color: #f4f4f4;
+    border: none;
+}
+
+input[type=submit],[type=reset]{
+    font-family: 'Martel', serif;
+}
+
+.button {
+    color: #252A3C;
+    padding: 10px 15px;
+    margin: auto 10px auto 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    
+    background-color: #f4f4f4;
+}
+
+.button:active {
+    color: whitesmoke;
+}
+
+.nav2 {
+   list-style: none;
+   margin: 0;
+   padding-top: 4px;
+   padding-left: 0px;
+   overflow: hidden;
+}
+
+li.nav2 {
+    float: left;
+}
+
+
+li a {
+    color: #252A3C;
+    text-align: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    text-decoration: none; 
+}
+
+li a:hover {
+    background-color: #f4f4f4;
+}
+
+.blogpost1, .blogpost2, 
+.blogpost3, .blogpost4,
+.blogpost5 { 
+    width: 400px; border: 1px solid #8D99AE; 
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: space-around;    
+}
+
+.blogpost {
+    align-self: flex-end;
+}
+
+@media (min-width: 1024px) {
+   body {
+       background-color: white;
+       color: black;
+       line-height: 180%;
+       %;
+   } 
+}
+
+@media (max-width: 1024px) {
+    .aboutIMG {
+        width: 40%;
+        margin: 10px auto 32px 48px;
+    }
+}

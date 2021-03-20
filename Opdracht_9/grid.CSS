@@ -1,0 +1,149 @@
+
+
+.container {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-rows: 80px 500px auto 80px;
+    height: 100vh;
+}
+
+
+
+
+.header {
+    background-color: red;
+    border: 1px solid black;
+    grid-column: 1 / -1;
+
+}
+
+.main {
+    background-color: green;
+    border: 1px solid black;
+
+}
+
+.area {
+    background-color: yellow;
+    border: 1px solid black;
+    grid-column: 2 / -1;
+
+}
+
+.footer {
+    background-color: purple;
+    border: 1px solid black;
+    grid-column: 1 / -1;
+
+}
+
+@media (min-width: 1024px) {
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-gap: 3px;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 600px auto 80px;
+        grid-template-areas: 
+            "h h m m m m m m m m m m"
+            "h h a a a a a a a a a a"
+            "h h f f f f f f f f f f";
+    }
+    
+    
+ 
+
+ 
+    .header {
+        background-color: red;
+        border: 1px solid black;
+        grid-area: h;
+    
+    }
+
+ 
+
+
+    .main {
+        background-color: green;
+        border: 1px solid black;
+        grid-area: m;
+    
+    }
+
+ 
+
+
+    .area {
+        background-color: yellow;
+        border: 1px solid black;
+        grid-area: a;
+    
+    }
+ 
+
+ 
+    .footer {
+        background-color: purple;
+        border: 1px solid black;
+        grid-area: f;
+    
+    }
+ }
+
+ @media (min-width: 1440px) {
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-gap: 3px;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 600px auto 80px;
+        grid-template-areas: 
+            "h h m m m m m m m m a a"
+            "h h m m m m m m m m a a"
+            "h h f f f f f f f f a a";
+    }
+    
+    
+ 
+
+ 
+    .header {
+        background-color: red;
+        border: 1px solid black;
+        grid-area: h;
+    
+    }
+
+ 
+
+
+    .main {
+        background-color: green;
+        border: 1px solid black;
+        grid-area: m;
+    
+    }
+
+ 
+
+
+    .area {
+        background-color: yellow;
+        border: 1px solid black;
+        grid-area: a;
+    
+    }
+ 
+
+ 
+    .footer {
+        background-color: purple;
+        border: 1px solid black;
+        grid-area: f;
+    
+    }
+ }
+
+ 
+
